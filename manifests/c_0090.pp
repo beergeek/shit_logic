@@ -1,72 +1,25 @@
-class shit_logic::c_0009 {
+class shit_logic::c_0090 {
 
-  file { '/etc/crtestdir/c0009r10_file0001_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0001\n',
-  }
+include shit_logic::c_0089
 
+file {"/opt/90_of_1": content => "90--------1   7580269022999465189560482489",}
 
-  file { '/etc/crtestdir/c0009r10_file0002_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0002\n',
-  }
+file {"/opt/90_of_2": content => "90--------2   4737160009678648428595474062",}
 
+file {"/opt/90_of_3": content => "90--------3   6893361335264753084327062494",}
 
-  file { '/etc/crtestdir/c0009r10_file0003_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0003\n',
-  }
+file {"/opt/90_of_4": content => "90--------4   3795635900963060634478132992",}
 
+file {"/opt/90_of_5": content => "90--------5   3044007501350458355715817808",}
 
-  file { '/etc/crtestdir/c0009r10_file0004_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0004\n',
-  }
+file {"/opt/90_of_6": content => "90--------6   2508205471088344456375026576",}
 
+file {"/opt/90_of_7": content => "90--------7   2127907948351889561357580987",}
 
-  file { '/etc/crtestdir/c0009r10_file0005_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0005\n',
-  }
+file {"/opt/90_of_8": content => "90--------8   1033795297726993815871135735",}
 
+file {"/opt/90_of_9": content => "90--------9   6662527878912622850861895350",}
 
-  file { '/etc/crtestdir/c0009r10_file0006_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0006\n',
-  }
-
-
-  file { '/etc/crtestdir/c0009r10_file0007_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0007\n',
-  }
-
-
-  file { '/etc/crtestdir/c0009r10_file0008_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0008\n',
-  }
-
-
-  file { '/etc/crtestdir/c0009r10_file0009_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0009\n',
-  }
-
-
-  file { '/etc/crtestdir/c0009r10_file0010_of_10':
-    ensure => present,
-    mode => '0666',
-    content => 'CONTENT c0009r0010\n',
-  }
+file {"/opt/90_of_10": content => "90--------10   8272426892635742925414459814",}
 
 }
