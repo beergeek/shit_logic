@@ -2,24 +2,24 @@ class shit_logic::c_0016 {
 
 include shit_logic::c_0015
 
-file {"/opt/16_of_1": content => "16--------1   43456258745432677028702459",}
+file {"/opt/16_of_1": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_2": content => "16--------2   469443995220910748575085395",}
+file {"/opt/16_of_2": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_3": content => "16--------3   9550639732112520984204020079",}
+file {"/opt/16_of_3": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_4": content => "16--------4   2882778599964298880195486450",}
+file {"/opt/16_of_4": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_5": content => "16--------5   4952015068810852296197065489",}
+file {"/opt/16_of_5": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_6": content => "16--------6   5869686067498009313607804664",}
+file {"/opt/16_of_6": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_7": content => "16--------7   3352505199190251887750793179",}
+file {"/opt/16_of_7": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_8": content => "16--------8   1878448810454603479513602158",}
+file {"/opt/16_of_8": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_9": content => "16--------9   4502720621881028080870679099",}
+file {"/opt/16_of_9": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
-file {"/opt/16_of_10": content => "16--------10   9087375359174602676706946030",}
+file {"/opt/16_of_10": content => fqdn_rand(999999999999999999999999999999, 'shit logic'),}
 
 }
