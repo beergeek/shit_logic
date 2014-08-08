@@ -1,5 +1,7 @@
 class shit_logic::c_001 {
 
+  include shit_logic::c_000
+
 file {"/opt/1_of_1": content => "1--------1   9041647179740100091927860668",}
 
 file {"/opt/1_of_2": content => "1--------2   9561520625379930208743549929",}
