@@ -1,7 +1,5 @@
 class shit_logic::c_001 {
 
-include shit_logic::c_000
-
 file {"/opt/1_of_1": content => fqdn_rand(999999999999999999999999999999),}
 
 file {"/opt/1_of_2": content => fqdn_rand(999999999999999999999999999999),}
