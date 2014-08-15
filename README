@@ -1,2 +1,11 @@
-Module with some logic and a time consuming function
-Purely for testing purposes
+Module with conditional logic, time consuming functions and many 
+resources.  Purely for testing purposes.
+
+The shit_logic base class includes some conditional logic and a really
+crappy function to waste time.
+
+Each c_XXXX class includes 10 file resources that are derived from
+the fqdn_rand() function. Each class includes the N-1 class.
+
+To include 500 unique resources include c_0050; for 1000 resources 
+include c_00100.
